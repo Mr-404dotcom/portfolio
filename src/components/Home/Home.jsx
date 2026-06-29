@@ -2,10 +2,10 @@ import heroImage from "../../assets/images/0ee3d15a-6a57-4a72-8529-7a145811f189.
 
 function Home() {
   return (
-    <section className="home" id="home">
+    <section className="hero" id="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="text-4xl font-bold mb-4" > <span>Full Stack Developer</span></h1>
+          <h1 className="text-4xl font-bold mb-4" ><span>Full Stack Developer</span></h1>
 
           <p className="text-lg mb-6">
            I develop modern and responsive web applications using React, JavaScript, HTML, and CSS, with a focus on clean design, usability, and performance. 

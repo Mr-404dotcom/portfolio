@@ -99,7 +99,11 @@ section {
     display: flex;
     align-items: center;
 }
-
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 .hero-content {
     display: flex;
     align-items: center;
@@ -228,12 +232,20 @@ section {
     color: #000;
     transform: scale(1.1);
 }
-
+.skills h1 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: #000;
+}
 .projects-grid .bento-card {
     min-height: 240px;
 
 }
-
+.about h1 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: #000;
+}
 .bento-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
@@ -280,8 +292,8 @@ section {
 .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
-.project h2{
-    font-size: 25px;
+.projects h2{
+    font-size: 20px;
     margin-bottom: 12px;
     color: #000;
 }
@@ -300,7 +312,12 @@ p {
     align-items: flex-start;
     gap: 18px;
 }
-
+.contact h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
 .contact-list {
     display: flex;
     gap: 20px;
